@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(private router: Router) {}
 
   list(): any {
-    this.router.navigate(['listar']);
+    this.router.navigate(['list']);
   }
 
   new(): any {
